@@ -4,7 +4,7 @@ Hello there! This repository houses a game that I developed when I was just star
 
 ## About the Game 🕹️
 
-Escape From TOS York is a is a roguelike bullet hell game. Player needs to traverse through multiple levels of a dungeon filled with enemies, traps, and bosses.
+Escape From TOS York is a roguelike bullet hell game. Player needs to traverse through multiple levels of a dungeon filled with enemies, traps, and bosses.
 
 ## Tech Stack 💻
 
