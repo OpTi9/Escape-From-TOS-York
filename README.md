@@ -1,5 +1,5 @@
 # Escape From TOS York 👾
-
+<img src="https://i.imgur.com/gpJkGyL.png" width="600" alt="javascript"/>
 Hello there! This repository houses a game that I developed when I was just starting to code. It's called Escape From TOS York, and while it may not be the pinnacle of my work, it's a great reflection of my journey and progression as a developer.
 
 ## About the Game 🕹️
@@ -21,6 +21,5 @@ In an exciting development, my game gained the attention of the streaming commun
 
 
 ## Screenshots 📸
-<img src="https://i.imgur.com/gpJkGyL.png" width="600" alt="javascript"/>
 <img src="https://i.imgur.com/0yBcVde.png" width="600" alt="javascript"/>
 <img src="https://i.imgur.com/jKxsDvd.png" width="600" alt="javascript"/>
