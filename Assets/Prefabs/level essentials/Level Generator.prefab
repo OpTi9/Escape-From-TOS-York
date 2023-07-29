@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6740424774218467340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6740424774218467342}
+  - component: {fileID: 6740424774218467343}
+  m_Layer: 0
+  m_Name: Level Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6740424774218467342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740424774218467340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6740424774388578181}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6740424774218467343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740424774218467340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a1ed2a2ecdb4a4fa021150ded24cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layoutRoom: {fileID: 3789563814316738571, guid: b51f99a604de12e429e026aebeca603f,
+    type: 3}
+  startColor: {r: 0, g: 0.97121596, b: 1, a: 1}
+  endColor: {r: 0.8679245, g: 0, b: 0, a: 1}
+  shopColor: {r: 0.8867924, g: 0.8713026, b: 0, a: 0.8156863}
+  distanceToEnd: 10
+  includeShop: 1
+  minDistanceToShop: 3
+  maxDistanceToShop: 7
+  generatorPoint: {fileID: 6740424774388578181}
+  selectedDirection: 0
+  xOffset: 18
+  yOffset: 10
+  whatIsRoom:
+    serializedVersion: 2
+    m_Bits: 32768
+  rooms:
+    singleUp: {fileID: 1448141770044943600, guid: 00cdabd12038a804facb5b3f51bf2891,
+      type: 3}
+    singleDown: {fileID: 1205099099112637923, guid: 049ddb98bb903ed45877b97cc32e9ec3,
+      type: 3}
+    singleRight: {fileID: 7357865950896723238, guid: f9d034b44876558498d3eb67cf698f65,
+      type: 3}
+    singleLeft: {fileID: 2624163982895667508, guid: e7bdeff01e594204888f1c9ee00e3f61,
+      type: 3}
+    doubleUpDown: {fileID: 8395199800433073631, guid: f579f14b173d71d44b3ce49945a0cc46,
+      type: 3}
+    doubleLeftRight: {fileID: 4367304820201624439, guid: b3c1d714aa880274ca122561eaeee652,
+      type: 3}
+    doubleUpRight: {fileID: 2420401318886767434, guid: f9190fce83d01ab4a98d4f4a5cfc8b6d,
+      type: 3}
+    doubleRightDown: {fileID: 5470837603529863702, guid: 6b95eb6ead62a104a9868b013661ef0e,
+      type: 3}
+    doubleDownLeft: {fileID: 442000294821919288, guid: cb865d93136358a46ad45ca42794bd6d,
+      type: 3}
+    doubleLeftUp: {fileID: 7282747358342189011, guid: 174c5b4187e1aae4cb056ce75990e007,
+      type: 3}
+    tripleUpRightDown: {fileID: 3138946812062528993, guid: 41c723001f5387843ab47ff392384dbe,
+      type: 3}
+    tripleRightDownLeft: {fileID: 7485546380717400810, guid: 00bbebb84ea249d4490a6d2afad7b086,
+      type: 3}
+    tripleDownLeftUp: {fileID: 3909433417775602868, guid: 02bab1d5c07cece4faf7da70ceea2845,
+      type: 3}
+    tripleLeftUpRight: {fileID: 835140934015454190, guid: 7b9e44d574aa24e4f947e403ec0434cd,
+      type: 3}
+    fourway: {fileID: 204106010745795553, guid: 82eeece5a0380b640a179c5af788ef6b,
+      type: 3}
+  centerStart: {fileID: 5829565864679411315, guid: b8ea995be694b324eaf290b1cd8b271a,
+    type: 3}
+  centerEnd: {fileID: 755429395406969598, guid: ae8b5109759324b418d43dd8df85d61d,
+    type: 3}
+  centerShop: {fileID: 1722318503071405295, guid: e34df75d483646748bb427c8dd31e45b,
+    type: 3}
+  potentialCenters:
+  - {fileID: 4167858909785674944, guid: 9f0b0be718c2f084eaa206c89d986b9e, type: 3}
+  - {fileID: 5829565864679411315, guid: b8ea995be694b324eaf290b1cd8b271a, type: 3}
+  - {fileID: 5215463064419009167, guid: f2d4a985a3bd5784897823f946c0d33d, type: 3}
+--- !u!1 &6740424774388578186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6740424774388578181}
+  m_Layer: 0
+  m_Name: Generation Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6740424774388578181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740424774388578186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6740424774218467342}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
