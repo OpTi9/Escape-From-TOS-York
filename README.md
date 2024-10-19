@@ -19,9 +19,9 @@ The game caught the attention of the streaming community, and here are some high
 ### Feedback
 
 - **Positive**: Viewers enjoyed the humor and twitch memes. The game's initial stages were well-received for their challenge and creativity.
-- **Constructive Criticism**: Some players felt that while the first half of the game was strong, it lacked variety towards the end and ended abruptly. There were also comments about bugs, balancing issues (it's very hard at the start but becomes too easy later), and unfinished bosses.
+- **Criticism**: Some players felt that while the first half of the game was strong, it lacked variety towards the end and ended abruptly. There were also comments about bugs, balancing issues (it's very hard at the start but becomes too easy later), and unfinished bosses.
 
-I have to admit, after working on it for a month, I became impatient and decided to wrap it up within a week. This rush led to some of the game's shortcomings, like bugs and unpolished content. Nonetheless, seeing people play and enjoy the game, even with its flaws, was incredibly rewarding.
+I have to admit, after working on it for a month, I became impatient and anxious that I won't finish it. So I decided to set a deadline to wrap the project in a week. This rush led to some of the game's shortcomings, like bugs and unpolished content. Nonetheless, seeing people play and enjoy the game, even with its flaws, was incredibly rewarding.
 
 ## Screenshots 📸
 <img src="https://i.imgur.com/0yBcVde.png" width="600" alt="Gameplay Screenshot"/>
