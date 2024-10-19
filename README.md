@@ -10,6 +10,9 @@ I've always had a mind full of ideas, which sometimes makes it hard for me to st
 "Escape From TOS York" is a roguelike bullet hell game where you navigate through levels filled with enemies, traps, and bosses. It might not be perfect, but I had a lot of fun making it and learned valuable lessons along the way. The game is packed with inside jokes and memes, making it a humorous experience despite its flaws.
 
 ## Reception 👾
+![image](https://github.com/user-attachments/assets/45efa320-5e75-4a67-a115-ed822dadd90a)
+
+![image](https://github.com/user-attachments/assets/be974695-42a8-4893-b501-c917eaa80f7f)
 
 The game caught the attention of the streaming community, and here are some highlights:
 
